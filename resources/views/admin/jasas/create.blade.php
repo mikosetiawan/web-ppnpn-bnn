@@ -17,26 +17,26 @@
                         <div class="mb-4">
                             <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
                             <input type="text"
-                                class="block w-full sm:w-96 border-gray-300 rounded-md shadow-sm focus:ring-[#d4af37] focus:border-[#d4af37]"
+                                class="block w-full sm:w-full border-gray-300 rounded-md shadow-sm focus:ring-[#d4af37] focus:border-[#d4af37]"
                                 id="name" name="name" required>
                         </div>
                         <div class="mb-4">
                             <label for="description"
                                 class="block text-sm font-medium text-gray-700 mb-1">Description</label>
-                            <textarea class="block w-full sm:w-96 border-gray-300 rounded-md shadow-sm focus:ring-[#d4af37] focus:border-[#d4af37]"
+                            <textarea class="block w-full sm:w-full border-gray-300 rounded-md shadow-sm focus:ring-[#d4af37] focus:border-[#d4af37]"
                                 id="description" name="description" rows="4"></textarea>
                         </div>
                         <div class="mb-4">
                             <label for="price" class="block text-sm font-medium text-gray-700 mb-1">Price
                                 (Rp)</label>
                             <input type="number"
-                                class="block w-full sm:w-96 border-gray-300 rounded-md shadow-sm focus:ring-[#d4af37] focus:border-[#d4af37]"
+                                class="block w-full sm:w-full border-gray-300 rounded-md shadow-sm focus:ring-[#d4af37] focus:border-[#d4af37]"
                                 id="price" name="price" step="0.01" required>
                         </div>
                         <div class="mb-4">
                             <label for="image" class="block text-sm font-medium text-gray-700 mb-1">Image</label>
                             <input type="file"
-                                class="block w-full sm:w-96 border-gray-300 rounded-md shadow-sm focus:ring-[#d4af37] focus:border-[#d4af37]"
+                                class="block w-full sm:w-full border-gray-300 rounded-md shadow-sm focus:ring-[#d4af37] focus:border-[#d4af37]"
                                 id="image" name="image" accept="image/*">
                         </div>
                         <button type="submit"

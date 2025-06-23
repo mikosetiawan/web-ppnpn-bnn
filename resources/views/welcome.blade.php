@@ -202,7 +202,7 @@
                                         <button type="submit" class="btn btn-sakinah btn-sm">Add to Cart</button>
                                     </form>
                                 @else
-                                    <a href="{{ route('login') }}" class="btn btn-sakinah btn-sm">Login to Add to Cart</a>
+                                    <a href="{{ route('register') }}" class="btn btn-sakinah btn-sm">Login to Add to Cart</a>
                                 @endauth
                             </div>
                         </div>
